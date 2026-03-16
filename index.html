@@ -19,17 +19,19 @@ text-align:center;
 }
 </style>
 
-<script>
-window.onload = function(){
-window.location.href="https://drive.google.com/uc?export=download&id=1VI637aIXhkqI90SIAzvbZgWnU0Yt3Oeg";
-}
-</script>
-
 </head>
 
 <body>
 
 <h2>Your download is starting...</h2>
+
+<a id="downloadLink" href="https://drive.google.com/uc?export=download&id=1VI637aIXhkqI90SIAzvbZgWnU0Yt3Oeg" download></a>
+
+<script>
+window.onload = function(){
+document.getElementById("downloadLink").click();
+}
+</script>
 
 </body>
 </html>
