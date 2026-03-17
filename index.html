@@ -2,18 +2,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Secure Download</title>
+<title>Downloading...</title>
 
 <script>
-function downloadFile(){
-  var link = document.createElement("a");
-  link.href = "https://drive.google.com/uc?export=download&id=1veFedONE0njS_mY0A3ffIdfTBtw4cF-U";
-  link.download = "file.pdf";
-  document.body.appendChild(link);
-  link.click();
+window.onload = function(){
+  window.location.href = "https://drive.google.com/uc?export=download&id=1veFedONE0njS_mY0A3ffIdfTBtw4cF-U";
 }
-
-window.onload = downloadFile;
 </script>
 
 </head>
